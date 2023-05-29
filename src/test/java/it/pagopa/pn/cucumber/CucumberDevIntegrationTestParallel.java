@@ -16,6 +16,5 @@ import static io.cucumber.junit.platform.engine.Constants.EXECUTION_MODE_FEATURE
         @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "it.pagopa.pn.cucumber.steps"),
 })
 @ExcludeTags({"svil","ignore"})
-//@IncludeTags({"testLite"})
 public class CucumberDevIntegrationTestParallel {
 }
